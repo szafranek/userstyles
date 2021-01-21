@@ -1,0 +1,4 @@
+/* Hide trends on twitter.com */
+[aria-label~="Trending"] {
+	display: none !important;
+}
