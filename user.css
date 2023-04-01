@@ -2,3 +2,8 @@
 [aria-label~="Trending"] {
 	display: none !important;
 }
+
+/* Hide YouTube home page and sidebar recommendations */
+ytd-app ytd-rich-grid-renderer, ytd-app #related {
+	/* display: none !important; */
+}
