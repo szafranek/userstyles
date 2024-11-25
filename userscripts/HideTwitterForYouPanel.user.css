@@ -1,0 +1,10 @@
+/* ==UserStyle==
+@name        HideTwitterForYouPanel
+@description Hide the For You Tab on Twitter
+// @match       *://x.com/*
+==/UserStyle== */
+
+
+nav[role=navigation] div[role=tablist] div[role=presentation]:nth-child(1) {
+    visibility: hidden !important;
+}
